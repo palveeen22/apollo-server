@@ -4,11 +4,15 @@
 
 1. Clone the repository and run `npm run i` or `yarn add`
 2. Create `.env` file and paste
-      MONGODB_URI = YOUR_MONGODB_URI
-      REDIS_PORT = YOUR_REDIS_PORT
-      REDIS_HOST = YOUR_REDIS_HOST
-      REDIS_PASSWORD = YOUR_REDIS_PASSWORD
-3. Connect your database
+
+MONGODB_URI = YOUR_MONGODB_URI
+   </br>
+REDIS_PORT = YOUR_REDIS_PORT
+   </br>
+REDIS_HOST = YOUR_REDIS_HOST
+   </br>
+REDIS_PASSWORD = YOUR_REDIS_PASSWORD
+4. Connect your database
    `mongodb+srv://<username>:<password>@beyondthebasics.abcde.mongodb.net/test`
     Here's a short explanation of each component:
       - USER: The name of your database user
